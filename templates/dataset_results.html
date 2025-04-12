@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 text-center mb-4">
+        <h2>{{ t('results') }}</h2>
+        <!-- استخدم المتغيرات مباشرة بدون format -->
+        <p class="lead">{{ t('total_images') }}: {{ real_count + fake_count }}</p>
+        <p class="text-success">{{ t('real_images') }}: {{ real_count }}</p>
+        <p class="text-danger">{{ t('fake_images') }}: {{ fake_count }}</p>
+        
+        <a href="{{ url_for('download_report', filename=report_name) }}" class="btn btn-primary">
+            <i class="bi bi-download"></i> {{ t('download_report') }}
+        </a>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div id="emotionChart"></div>
+    </div>
+    <div class="col-md-6">
+        <div id="realFakeChart"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="text-center mb-4">{{ t('emotion_distribution') }}</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>{{ t('emotion') }}</th>
+                    <th>Sayı</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for emotion, count in emotions_count.items() %}
+                <tr>
+                    <td>{{ emotion }}</td>
+                    <td>{{ count }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> {{ t('back') }}
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+/* eslint-disable */
+document.addEventListener('DOMContentLoaded', function() {
+    // upload_results.html sayfasındaki JavaScript koduyla aynıdır
+    const emotionsData = JSON.parse('{{ emotions_count|tojson|safe }}');
+    const realFakeValues = JSON.parse('{{ [real_count, fake_count]|tojson|safe }}');
+    const labels = [
+        '{{ t("real")|safe }}',
+        '{{ t("fake")|safe }}'
+    ];
+    const chartTitle = '{{ t("emotion_distribution")|safe }}';
+    const emotionLabel = '{{ t("emotion")|safe }}';
+
+    Plotly.newPlot('emotionChart', [{
+        x: Object.keys(emotionsData),
+        y: Object.values(emotionsData),
+        type: 'bar',
+        marker: { color: ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b'] }
+    }], {
+        title: chartTitle,
+        xaxis: { title: emotionLabel },
+        yaxis: { title: 'Sayı' }
+    });
+
+    Plotly.newPlot('realFakeChart', [{
+        values: realFakeValues,
+        labels: labels,
+        type: 'pie',
+        marker: { colors: ['green', 'red'] }
+    }], {
+        title: labels[0] + ' vs ' + labels[1]
+    });
+});
+</script>
+{% endblock %}

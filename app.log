@@ -1,0 +1,423 @@
+2025-04-10 04:55:30,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 04:55:30,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 04:55:30,654 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 04:55:46,095 - WARNING -  * Debugger is active!
+2025-04-10 04:55:46,105 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 04:55:52,497 - INFO - 127.0.0.1 - - [10/Apr/2025 04:55:52] "GET / HTTP/1.1" 200 -
+2025-04-10 04:55:55,727 - INFO - 127.0.0.1 - - [10/Apr/2025 04:55:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 04:56:05,328 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:05] "GET /camera HTTP/1.1" 200 -
+2025-04-10 04:56:09,359 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\functional.py', reloading
+2025-04-10 04:56:09,378 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tensorflow\\python\\trackable\\base.py', reloading
+2025-04-10 04:56:09,411 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\training.py', reloading
+2025-04-10 04:56:09,425 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\utils\\traceback_utils.py', reloading
+2025-04-10 04:56:09,440 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\sequential.py', reloading
+2025-04-10 04:56:09,452 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\deepface\\models\\demography\\Emotion.py', reloading
+2025-04-10 04:56:09,464 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\deepface\\modules\\demography.py', reloading
+2025-04-10 04:56:09,481 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2025-04-10 04:56:09,500 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
+2025-04-10 04:56:09,514 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
+2025-04-10 04:56:09,531 - INFO -  * Detected change in 'c:\\Users\\musts\\.vscode\\extensions\\ms-python.debugpy-2025.6.0-win32-x64\\bundled\\libs\\debugpy\\_vendored\\pydevd\\_pydev_bundle\\pydev_monkey.py', reloading
+2025-04-10 04:56:35,337 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 04:56:48,976 - WARNING -  * Debugger is active!
+2025-04-10 04:56:48,987 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 04:56:49,086 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "[32mGET /set_language/en HTTP/1.1[0m" 302 -
+2025-04-10 04:56:49,114 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "[32mGET /set_language/tr HTTP/1.1[0m" 302 -
+2025-04-10 04:56:49,164 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "[32mGET /set_language/en HTTP/1.1[0m" 302 -
+2025-04-10 04:56:49,241 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "[32mGET /set_language/tr HTTP/1.1[0m" 302 -
+2025-04-10 04:56:49,243 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET /camera HTTP/1.1" 200 -
+2025-04-10 04:56:49,245 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET / HTTP/1.1" 200 -
+2025-04-10 04:56:49,295 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET / HTTP/1.1" 200 -
+2025-04-10 04:56:49,309 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET / HTTP/1.1" 200 -
+2025-04-10 04:56:49,312 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET / HTTP/1.1" 200 -
+2025-04-10 04:56:49,321 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET / HTTP/1.1" 200 -
+2025-04-10 04:56:49,397 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:49] "GET /upload HTTP/1.1" 200 -
+2025-04-10 04:56:53,262 - INFO - 127.0.0.1 - - [10/Apr/2025 04:56:53] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:15:30,166 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 05:15:30,166 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 05:15:30,192 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:15:44,059 - WARNING -  * Debugger is active!
+2025-04-10 05:15:44,084 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:15:48,153 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:15:48,155 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:15:48,156 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:16:04,356 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:16:22,702 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 05:16:22,702 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 05:16:22,722 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:16:38,054 - WARNING -  * Debugger is active!
+2025-04-10 05:16:38,068 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:16:38,168 - INFO - 127.0.0.1 - - [10/Apr/2025 05:16:38] "GET / HTTP/1.1" 200 -
+2025-04-10 05:16:40,896 - INFO - 127.0.0.1 - - [10/Apr/2025 05:16:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 05:16:48,409 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:16:48,411 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:17:20,011 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:18:51,641 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 05:18:51,641 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 05:18:51,666 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:19:07,804 - WARNING -  * Debugger is active!
+2025-04-10 05:19:07,819 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:19:07,984 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:19:07,989 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:19:07,989 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:19:15,594 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:19:46,334 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 05:19:46,334 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 05:19:46,356 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:20:02,095 - WARNING -  * Debugger is active!
+2025-04-10 05:20:02,103 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:20:02,173 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:02] "GET / HTTP/1.1" 200 -
+2025-04-10 05:20:02,771 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:02] "GET / HTTP/1.1" 200 -
+2025-04-10 05:20:04,525 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:04] "GET /camera HTTP/1.1" 200 -
+2025-04-10 05:20:09,387 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:09] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:20:09,390 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:09] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:20:09,879 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:09] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-10 05:20:09,890 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:09] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-10 05:20:10,010 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:10] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=gFOkK1Uad0Da6bTXVopC HTTP/1.1" 200 -
+2025-04-10 05:20:10,251 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:10] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-10 05:20:12,942 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:12] "GET / HTTP/1.1" 200 -
+2025-04-10 05:20:14,588 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:14] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:20:31,570 - INFO - 127.0.0.1 - - [10/Apr/2025 05:20:31] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:21:33,455 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:33] "GET / HTTP/1.1" 200 -
+2025-04-10 05:21:41,676 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:41] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:21:42,048 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:42] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-10 05:21:42,050 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:42] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-10 05:21:42,457 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:42] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=gFOkK1Uad0Da6bTXVopC HTTP/1.1[0m" 304 -
+2025-04-10 05:21:56,817 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:56] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:21:58,671 - INFO - 127.0.0.1 - - [10/Apr/2025 05:21:58] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:22:02,565 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:02] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:22:04,706 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:04] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:22:05,055 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:05] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-10 05:22:05,056 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:05] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-10 05:22:05,390 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:05] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=gFOkK1Uad0Da6bTXVopC HTTP/1.1[0m" 304 -
+2025-04-10 05:22:07,339 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:07] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:22:08,521 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:08] "GET /camera HTTP/1.1" 200 -
+2025-04-10 05:22:16,564 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:16] "GET / HTTP/1.1" 200 -
+2025-04-10 05:22:22,130 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:22] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:22:23,601 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:23] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:22:26,933 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:26] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:22:34,929 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:34] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:22:41,624 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:41] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:22:41,986 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:41] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-10 05:22:41,993 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:41] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-10 05:22:42,369 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:42] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=gFOkK1Uad0Da6bTXVopC HTTP/1.1[0m" 304 -
+2025-04-10 05:22:54,085 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:54] "[32mGET /set_language/en HTTP/1.1[0m" 302 -
+2025-04-10 05:22:54,347 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:54] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:22:55,678 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:55] "[32mGET /set_language/tr HTTP/1.1[0m" 302 -
+2025-04-10 05:22:56,003 - INFO - 127.0.0.1 - - [10/Apr/2025 05:22:56] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:23:03,389 - INFO - 127.0.0.1 - - [10/Apr/2025 05:23:03] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:24:11,439 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:24:11,441 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:24:11,442 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:24:16,707 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:24:35,011 - WARNING -  * Debugger is active!
+2025-04-10 05:24:35,032 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:24:35,402 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:24:35,404 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:24:35,405 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:25:58,253 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:26:16,451 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 05:26:16,451 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 05:26:16,476 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:26:30,659 - WARNING -  * Debugger is active!
+2025-04-10 05:26:30,671 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:27:04,259 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:04] "GET / HTTP/1.1" 200 -
+2025-04-10 05:27:09,551 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:09] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 05:27:10,010 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:10] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-10 05:27:10,011 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:10] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-10 05:27:10,182 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:10] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=qrkRFf1h4hPmJ5IJuHgR HTTP/1.1" 200 -
+2025-04-10 05:27:27,958 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:27] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:27:33,107 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:33] "POST /upload HTTP/1.1" 200 -
+2025-04-10 05:27:35,282 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:35] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-10 05:27:35,322 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:35] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-10 05:27:35,636 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:35] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-10 05:27:35,998 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:35] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=qrkRFf1h4hPmJ5IJuHgR HTTP/1.1" 200 -
+2025-04-10 05:27:36,252 - INFO - 127.0.0.1 - - [10/Apr/2025 05:27:36] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-10 05:28:04,057 - INFO - 127.0.0.1 - - [10/Apr/2025 05:28:04] "GET /upload HTTP/1.1" 200 -
+2025-04-10 05:28:06,943 - INFO - 127.0.0.1 - - [10/Apr/2025 05:28:06] "GET / HTTP/1.1" 200 -
+2025-04-10 05:33:53,830 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:33:53,831 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:33:53,833 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:33:58,403 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 05:34:13,740 - WARNING -  * Debugger is active!
+2025-04-10 05:34:13,756 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 05:34:15,301 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:34:15,302 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 05:34:15,302 - INFO -  * Detected change in 'C:\\Users\\musts\\Desktop\\fakeface\\deepfake.py', reloading
+2025-04-10 19:04:55,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 19:04:55,101 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 19:04:55,147 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 19:05:10,192 - WARNING -  * Debugger is active!
+2025-04-10 19:05:10,204 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 19:05:10,323 - INFO - 127.0.0.1 - - [10/Apr/2025 19:05:10] "GET / HTTP/1.1" 200 -
+2025-04-10 19:05:10,336 - INFO - 127.0.0.1 - - [10/Apr/2025 19:05:10] "GET /upload HTTP/1.1" 200 -
+2025-04-10 19:05:10,350 - INFO - 127.0.0.1 - - [10/Apr/2025 19:05:10] "GET / HTTP/1.1" 200 -
+2025-04-10 19:05:16,119 - INFO - 127.0.0.1 - - [10/Apr/2025 19:05:16] "POST /upload HTTP/1.1" 200 -
+2025-04-10 19:05:17,741 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\functional.py', reloading
+2025-04-10 19:05:17,759 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tensorflow\\python\\trackable\\base.py', reloading
+2025-04-10 19:05:17,789 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\training.py', reloading
+2025-04-10 19:05:17,803 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\utils\\traceback_utils.py', reloading
+2025-04-10 19:05:17,816 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\engine\\sequential.py', reloading
+2025-04-10 19:05:17,831 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\deepface\\models\\demography\\Emotion.py', reloading
+2025-04-10 19:05:17,844 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\deepface\\modules\\demography.py', reloading
+2025-04-10 19:05:17,863 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2025-04-10 19:05:17,879 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2025-04-10 19:05:17,898 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
+2025-04-10 19:05:17,913 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
+2025-04-10 19:05:17,931 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\threading.py', reloading
+2025-04-10 19:05:17,948 - INFO -  * Detected change in 'c:\\Users\\musts\\.vscode\\extensions\\ms-python.debugpy-2025.6.0-win32-x64\\bundled\\libs\\debugpy\\_vendored\\pydevd\\_pydev_bundle\\pydev_monkey.py', reloading
+2025-04-10 19:05:18,159 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\tf_keras\\src\\layers\\pooling\\max_pooling2d.py', reloading
+2025-04-10 19:06:18,454 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-10 19:06:18,454 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 19:06:18,476 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 19:06:34,185 - WARNING -  * Debugger is active!
+2025-04-10 19:06:34,197 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 19:06:34,294 - INFO - 127.0.0.1 - - [10/Apr/2025 19:06:34] "GET / HTTP/1.1" 200 -
+2025-04-10 19:06:34,748 - INFO - 127.0.0.1 - - [10/Apr/2025 19:06:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 19:06:41,038 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-10 19:06:41,106 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-10 19:06:41,122 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-10 19:06:41,140 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\filters.py', reloading
+2025-04-10 19:06:41,148 - INFO - 127.0.0.1 - - [10/Apr/2025 19:06:41] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 19:06:41,259 - INFO - 127.0.0.1 - - [10/Apr/2025 19:06:41] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-10 19:08:19,541 - INFO - 127.0.0.1 - - [10/Apr/2025 19:08:19] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-10 19:08:21,203 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-10 19:08:38,230 - WARNING -  * Debugger is active!
+2025-04-10 19:08:38,240 - INFO -  * Debugger PIN: 962-968-139
+2025-04-10 19:08:38,331 - INFO - 127.0.0.1 - - [10/Apr/2025 19:08:38] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=BYUjML2vpZMifiEdt6Tm HTTP/1.1" 200 -
+2025-04-10 19:08:38,346 - INFO - 127.0.0.1 - - [10/Apr/2025 19:08:38] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-10 23:16:41,064 - INFO - 127.0.0.1 - - [10/Apr/2025 23:16:41] "GET / HTTP/1.1" 200 -
+2025-04-10 23:16:41,795 - INFO - 127.0.0.1 - - [10/Apr/2025 23:16:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-10 23:20:32,091 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-10 23:20:32,098 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-10 23:20:32,180 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-10 23:20:32,189 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-04-10 23:20:32,206 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-04-10 23:20:32,225 - INFO -  * Detected change in 'c:\\Users\\musts\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\filters.py', reloading
+2025-04-10 23:20:32,240 - INFO - 127.0.0.1 - - [10/Apr/2025 23:20:32] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 23:20:32,242 - INFO - 127.0.0.1 - - [10/Apr/2025 23:20:32] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-10 23:20:32,288 - INFO - 127.0.0.1 - - [10/Apr/2025 23:20:32] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-10 23:20:32,678 - INFO - 127.0.0.1 - - [10/Apr/2025 23:20:32] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 04:44:01,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 04:44:01,777 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 04:44:02,096 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:02] "GET / HTTP/1.1" 200 -
+2025-04-11 04:44:21,531 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:21] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:44:25,882 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:44:25,938 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:25] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:44:38,642 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:44:38,646 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:38] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:44:41,003 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:41] "GET /download_report/report_20250411_044438.pdf HTTP/1.1" 200 -
+2025-04-11 04:44:47,625 - INFO - 127.0.0.1 - - [11/Apr/2025 04:44:47] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:45:00,100 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:00] "POST /upload HTTP/1.1" 200 -
+2025-04-11 04:45:03,155 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:45:03,248 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:03] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 04:45:03,299 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:03] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-11 04:45:03,671 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:03] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-11 04:45:04,145 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:04] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=mIfSBBQao8ieqjvJRvCA HTTP/1.1" 200 -
+2025-04-11 04:45:04,497 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:04] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-11 04:45:06,477 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:06] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:45:08,594 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:45:08,598 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:08] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:45:12,864 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:12] "[32mGET /set_language/en HTTP/1.1[0m" 302 -
+2025-04-11 04:45:13,231 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:45:13,235 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:13] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:45:16,588 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:16] "[32mGET /set_language/tr HTTP/1.1[0m" 302 -
+2025-04-11 04:45:17,044 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:45:17,048 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:17] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:45:19,427 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:19] "GET /camera HTTP/1.1" 200 -
+2025-04-11 04:45:22,110 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:22] "GET / HTTP/1.1" 200 -
+2025-04-11 04:45:31,173 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:45:31,176 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:31] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:45:49,433 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:49] "GET / HTTP/1.1" 200 -
+2025-04-11 04:45:50,940 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:50] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:45:59,583 - INFO - 127.0.0.1 - - [11/Apr/2025 04:45:59] "POST /upload HTTP/1.1" 200 -
+2025-04-11 04:46:01,888 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:46:01,917 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:01] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 04:46:01,957 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:01] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 04:46:02,268 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:02] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 04:46:02,595 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:02] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=mIfSBBQao8ieqjvJRvCA HTTP/1.1[0m" 304 -
+2025-04-11 04:46:07,573 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:07] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:46:55,095 - INFO - 127.0.0.1 - - [11/Apr/2025 04:46:55] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:47:00,082 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:00] "POST /upload HTTP/1.1" 200 -
+2025-04-11 04:47:01,128 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 04:47:01,153 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:01] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 04:47:01,186 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:01] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 04:47:01,504 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:01] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 04:47:01,842 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:01] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=mIfSBBQao8ieqjvJRvCA HTTP/1.1[0m" 304 -
+2025-04-11 04:47:40,325 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 04:47:40,325 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 04:47:43,456 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:43] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:47:48,296 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:48] "POST /upload HTTP/1.1" 200 -
+2025-04-11 04:47:50,161 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:50] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 04:47:50,250 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:50] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 04:47:50,509 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:50] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 04:47:50,838 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:50] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=tx33doR9HqgnfNLLFNGK HTTP/1.1" 200 -
+2025-04-11 04:47:51,237 - INFO - 127.0.0.1 - - [11/Apr/2025 04:47:51] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:48:00,340 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:00] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:48:07,012 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:07] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:48:09,467 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:09] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:48:14,327 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:14] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:48:17,033 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:17] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:48:24,577 - INFO - 127.0.0.1 - - [11/Apr/2025 04:48:24] "GET / HTTP/1.1" 200 -
+2025-04-11 04:49:23,974 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:23] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:49:25,163 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:25] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:49:26,775 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:26] "GET /camera HTTP/1.1" 200 -
+2025-04-11 04:49:30,894 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:30] "GET /camera HTTP/1.1" 200 -
+2025-04-11 04:49:33,131 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:33] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 04:49:34,849 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:34] "GET /upload HTTP/1.1" 200 -
+2025-04-11 04:49:37,369 - INFO - 127.0.0.1 - - [11/Apr/2025 04:49:37] "GET / HTTP/1.1" 200 -
+2025-04-11 05:25:10,888 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 05:25:10,888 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 05:26:06,237 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:06] "GET / HTTP/1.1" 200 -
+2025-04-11 05:26:07,760 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:07] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:26:12,679 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:12] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:26:15,169 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:26:15,210 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:15] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:26:21,320 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:21] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:26:27,589 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:27] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:26:29,148 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:26:29,178 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:29] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:26:36,628 - INFO - 127.0.0.1 - - [11/Apr/2025 05:26:36] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:27:05,302 - INFO - 127.0.0.1 - - [11/Apr/2025 05:27:05] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:27:07,918 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:27:13,035 - INFO - 127.0.0.1 - - [11/Apr/2025 05:27:13] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:27:51,716 - INFO - 127.0.0.1 - - [11/Apr/2025 05:27:51] "GET /download_report/report_20250411_052713.pdf HTTP/1.1" 200 -
+2025-04-11 05:27:58,539 - INFO - 127.0.0.1 - - [11/Apr/2025 05:27:58] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:27:59,534 - INFO - 127.0.0.1 - - [11/Apr/2025 05:27:59] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:28:02,380 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:28:02,381 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:02] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:28:07,549 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:07] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:28:08,750 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:08] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:28:09,355 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:28:09,377 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:09] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:28:15,975 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:15] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:28:18,000 - INFO - 127.0.0.1 - - [11/Apr/2025 05:28:18] "GET / HTTP/1.1" 200 -
+2025-04-11 05:30:37,123 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:30:37,155 - INFO - 127.0.0.1 - - [11/Apr/2025 05:30:37] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:30:44,051 - INFO - 127.0.0.1 - - [11/Apr/2025 05:30:44] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:30:49,423 - INFO - 127.0.0.1 - - [11/Apr/2025 05:30:49] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:30:50,090 - ERROR - Font loading error: TTF Font file not found: DejaVuSans.ttf
+2025-04-11 05:30:50,107 - INFO - 127.0.0.1 - - [11/Apr/2025 05:30:50] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:30:52,655 - INFO - 127.0.0.1 - - [11/Apr/2025 05:30:52] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:34:34,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 05:34:34,221 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 05:35:56,556 - INFO - 127.0.0.1 - - [11/Apr/2025 05:35:56] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:36:01,659 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:01] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:36:04,343 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:04] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 05:36:04,480 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:04] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 05:36:04,702 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:04] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 05:36:05,084 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:05] "GET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=qrcdcoOphQT7dxVWlBbe HTTP/1.1" 200 -
+2025-04-11 05:36:05,354 - INFO - 127.0.0.1 - - [11/Apr/2025 05:36:05] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-11 05:38:48,722 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:48] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:38:51,044 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:51] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-11 05:38:51,398 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:51] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 05:38:51,406 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:51] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 05:38:51,642 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:51] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=qrcdcoOphQT7dxVWlBbe HTTP/1.1" 200 -
+2025-04-11 05:38:51,784 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:51] "GET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-11 05:38:54,178 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:54] "GET /camera HTTP/1.1" 200 -
+2025-04-11 05:38:56,386 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:56] "[35m[1mGET /analyze_dataset HTTP/1.1[0m" 500 -
+2025-04-11 05:38:56,499 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:56] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 05:38:56,737 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:56] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 05:38:56,795 - INFO - 127.0.0.1 - - [11/Apr/2025 05:38:56] "[36mGET /analyze_dataset?__debugger__=yes&cmd=resource&f=console.png&s=qrcdcoOphQT7dxVWlBbe HTTP/1.1[0m" 304 -
+2025-04-11 05:39:00,623 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:00] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:39:07,582 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:07] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:39:08,368 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:08] "[35m[1mGET /analyze_uploaded HTTP/1.1[0m" 500 -
+2025-04-11 05:39:08,396 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:08] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-11 05:39:08,701 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:08] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-11 05:39:09,034 - INFO - 127.0.0.1 - - [11/Apr/2025 05:39:09] "[36mGET /analyze_uploaded?__debugger__=yes&cmd=resource&f=console.png&s=qrcdcoOphQT7dxVWlBbe HTTP/1.1[0m" 304 -
+2025-04-11 05:44:03,154 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 05:44:03,154 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 05:44:07,202 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:07] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:44:19,234 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:19] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:44:21,736 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054421.pdf
+2025-04-11 05:44:21,782 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:21] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:44:25,734 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:25] "GET /download_report/rapor_20250411_054421.pdf HTTP/1.1" 200 -
+2025-04-11 05:44:41,622 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054441.pdf
+2025-04-11 05:44:41,643 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:41] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:44:43,371 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:43] "GET /download_report/rapor_20250411_054441.pdf HTTP/1.1" 200 -
+2025-04-11 05:44:53,986 - INFO - 127.0.0.1 - - [11/Apr/2025 05:44:53] "GET / HTTP/1.1" 200 -
+2025-04-11 05:46:18,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 05:46:18,642 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 05:46:22,458 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054622.pdf
+2025-04-11 05:46:22,500 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:22] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:46:26,290 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:26] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:46:31,674 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:31] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:46:33,205 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054633.pdf
+2025-04-11 05:46:33,245 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:33] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:46:39,410 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:39] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:46:44,688 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:44] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:46:45,497 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054645.pdf
+2025-04-11 05:46:45,512 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:45] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:46:46,771 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:46] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:46:50,912 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:50] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:46:56,806 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054656.pdf
+2025-04-11 05:46:56,820 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:56] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:46:57,877 - INFO - 127.0.0.1 - - [11/Apr/2025 05:46:57] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:47:00,149 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:00] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:47:05,853 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054705.pdf
+2025-04-11 05:47:05,867 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:05] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:47:11,076 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:11] "GET /download_report/rapor_20250411_054705.pdf HTTP/1.1" 200 -
+2025-04-11 05:47:21,814 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:21] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:47:30,452 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:30] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:47:36,372 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054736.pdf
+2025-04-11 05:47:36,385 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:36] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:47:42,441 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:42] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:47:48,076 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:48] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:47:48,617 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054748.pdf
+2025-04-11 05:47:48,634 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:48] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:47:54,081 - INFO - 127.0.0.1 - - [11/Apr/2025 05:47:54] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:48:01,029 - INFO - 127.0.0.1 - - [11/Apr/2025 05:48:01] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:48:01,860 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_054801.pdf
+2025-04-11 05:48:01,876 - INFO - 127.0.0.1 - - [11/Apr/2025 05:48:01] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:48:09,160 - INFO - 127.0.0.1 - - [11/Apr/2025 05:48:09] "GET / HTTP/1.1" 200 -
+2025-04-11 05:48:11,495 - INFO - 127.0.0.1 - - [11/Apr/2025 05:48:11] "GET / HTTP/1.1" 200 -
+2025-04-11 05:51:27,866 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055127.pdf
+2025-04-11 05:51:27,869 - INFO - 127.0.0.1 - - [11/Apr/2025 05:51:27] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:51:34,070 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055134.pdf
+2025-04-11 05:51:34,074 - INFO - 127.0.0.1 - - [11/Apr/2025 05:51:34] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:51:37,236 - INFO - 127.0.0.1 - - [11/Apr/2025 05:51:37] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:51:43,500 - INFO - 127.0.0.1 - - [11/Apr/2025 05:51:43] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:51:44,360 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055144.pdf
+2025-04-11 05:51:44,377 - INFO - 127.0.0.1 - - [11/Apr/2025 05:51:44] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:52:57,353 - INFO - 127.0.0.1 - - [11/Apr/2025 05:52:57] "GET /upload HTTP/1.1" 200 -
+2025-04-11 05:52:59,423 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055259.pdf
+2025-04-11 05:52:59,426 - INFO - 127.0.0.1 - - [11/Apr/2025 05:52:59] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:55:46,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-11 05:55:46,651 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-11 05:56:36,368 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:36] "POST /upload HTTP/1.1" 200 -
+2025-04-11 05:56:39,032 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055639.pdf
+2025-04-11 05:56:39,101 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:39] "GET /analyze_uploaded HTTP/1.1" 200 -
+2025-04-11 05:56:40,211 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055640.pdf
+2025-04-11 05:56:40,235 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:40] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:42,774 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055642.pdf
+2025-04-11 05:56:42,777 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:42] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:46,521 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055646.pdf
+2025-04-11 05:56:46,524 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:46] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:48,055 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055648.pdf
+2025-04-11 05:56:48,058 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:48] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:49,164 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055649.pdf
+2025-04-11 05:56:49,166 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:49] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:50,710 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055650.pdf
+2025-04-11 05:56:50,713 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:50] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:51,828 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055651.pdf
+2025-04-11 05:56:51,830 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:51] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:53,525 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055653.pdf
+2025-04-11 05:56:53,527 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:53] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:55,071 - INFO - Rapor basariyla olusturuldu: static/reports\rapor_20250411_055655.pdf
+2025-04-11 05:56:55,073 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:55] "GET /analyze_dataset HTTP/1.1" 200 -
+2025-04-11 05:56:59,509 - INFO - 127.0.0.1 - - [11/Apr/2025 05:56:59] "GET /download_report/rapor_20250411_055655.pdf HTTP/1.1" 200 -
+2025-04-11 05:57:04,987 - INFO - 127.0.0.1 - - [11/Apr/2025 05:57:04] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12 text-center mb-4">
+        <h2>{{ t('results') }}</h2>
+        <!-- استخدم هذا الشكل بدلاً من format -->
+        <p class="lead">{{ t('total_images') }}: {{ results|length }}</p>
+        <p class="text-success">{{ t('real_images') }}: {{ real_count }}</p>
+        <p class="text-danger">{{ t('fake_images') }}: {{ fake_count }}</p>
+        
+        <a href="{{ url_for('download_report', filename=report_name) }}" class="btn btn-primary">
+            <i class="bi bi-download"></i> {{ t('download_report') }}
+        </a>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div id="emotionChart"></div>
+    </div>
+    {% if chart2_html %}
+    <div class="col-md-6">
+        <div id="realFakeChart"></div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="row">
+    {% for result in results %}
+    <div class="col-md-4 mb-4">
+        <div class="card analysis-result">
+            <img src="data:image/png;base64,{{ result.image_data }}" class="card-img-top" alt="{{ result.filename }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ result.filename }}</h5>
+                <table class="table table-sm">
+                    <tr>
+                        <th>{{ t('emotion') }}</th>
+                        <td>{{ result.emotion }}</td>
+                    </tr>
+                  
+                    <tr>
+                        <th>Durum</th>
+                        <td>
+                            {% if result.is_real %}
+                                <span class="badge bg-success">{{ t('real') }}</span>
+                            {% else %}
+                                <span class="badge bg-danger">{{ t('fake') }}</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> {{ t('back') }}
+        </a>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+/* eslint-disable */
+document.addEventListener('DOMContentLoaded', function() {
+    // Verileri Python'dan JavaScript'e güvenli şekilde dönüştürme
+    const emotionsData = JSON.parse('{{ emotions_count|tojson|safe }}');
+    const realFakeValues = JSON.parse('{{ [real_count, fake_count]|tojson|safe }}');
+    const labels = [
+        '{{ t("real")|safe }}',
+        '{{ t("fake")|safe }}'
+    ];
+    const chartTitle = '{{ t("emotion_distribution")|safe }}';
+    const emotionLabel = '{{ t("emotion")|safe }}';
+
+    // Duygu dağılımı grafiği
+    Plotly.newPlot('emotionChart', [{
+        x: Object.keys(emotionsData),
+        y: Object.values(emotionsData),
+        type: 'bar',
+        marker: { color: ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b'] }
+    }], {
+        title: chartTitle,
+        xaxis: { title: emotionLabel },
+        yaxis: { title: 'Sayı' }
+    });
+
+    // Gerçek ve sahte görsellerin grafiği
+    Plotly.newPlot('realFakeChart', [{
+        values: realFakeValues,
+        labels: labels,
+        type: 'pie',
+        marker: { colors: ['green', 'red'] }
+    }], {
+        title: labels[0] + ' vs ' + labels[1]
+    });
+});
+</script>
+{% endblock %}
